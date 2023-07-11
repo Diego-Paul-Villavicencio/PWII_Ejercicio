@@ -1,0 +1,10 @@
+$(document).ready(function() {
+  $('#cambiarBoton').click(function() {
+    var contenidoActual = $('#contenidoParrafo').text();
+    if (contenidoActual === 'En el año de 1991, y gracias al éxito masivo del sencillo "Smells like teen spirit", el grupo alcanzó fama mundial, lo que conllevó a que su disco "Nevermind" se convirtiera en el más afamado del movimiento grunge.') {
+      $('#contenidoParrafo').text('La banda de rock Nirvana sacó su primer disco en el año de 1989. El título otorgado por su lider y vocalista Kurt Cobain fue "Bleach". La disquera encargada del lanzamiento fue Sub Pop Records.');
+    } else {
+      $('#contenidoParrafo').text('En el año de 1991, y gracias al éxito masivo del sencillo "Smells like teen spirit", el grupo alcanzó fama mundial, lo que conllevó a que su disco "Nevermind" se convirtiera en el más afamado del movimiento grunge.');
+    }
+  });
+});
